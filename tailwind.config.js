@@ -29,10 +29,11 @@ module.exports = {
       colors: {
         red: "#FF0000",
         pink: "#FFEBEB",
-        darkpink: "#B400011A"
+        darkpink: "#B400011A",
+        cod_gray:"#141414"
       },
       backgroundImage: {
-        'hero': "url('./assets/images/webp/bg-hero.webp')",
+        'hero': "url('./assets/images/webp/hero_bg_img.webp')",
       },
       screens: {
         'sm': '576px',
