@@ -56,10 +56,10 @@ module.exports = {
           sm: "540px",
           md: "720px",
           lg: "960px",
-          xl: "1164px",
+          xl: "1188px",
         },
         padding: {
-          DEFAULT: "12px",
+          DEFAULT: "24px",
         },
       },
     }

@@ -12,21 +12,21 @@ const Hero = () => {
     <>
       <div className="bg-hero bg-center bg-cover">
         <Header />
-        <div className="container max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1164px] pb-14">
-          <h2 className=" font-Plus text-3xl sm:text-4xl md:text-5xl font-semibold xl:text-xxl xl:leading-[80.64px] text-white pt-[78px]">
+        <div className="container pb-14">
+          <h2 className="font-Plus text-3xl sm:text-4xl md:text-5xl font-semibold xl:text-xxl xl:leading-[80.64px] text-white pt-[78px]">
             Transform Your Space with{" "}
-            <span className=" lg:block">Precision and Quality:</span>
+            <span className="lg:block">Precision and Quality:</span>
             Get a Free Quote Today!
           </h2>
-          <p className=" font-Plus font-normal text-base md:text-lg lg:text-lg text-white max-w-[742px] mt-5">
+          <p className="font-Plus font-normal text-base md:text-lg lg:text-lg text-white max-w-[742px] mt-5">
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt. Fejkade nyheter
             eurosamma sol: teroktig,
           </p>
-          <CommonButton spacing=" mt-9" />
+          <CommonButton spacing="mt-9"/>
           <div className="hidden sm:flex gap-6 mt-16 flex-wrap">
             <ReviewBox />
-            <img src={installer} alt="installer" />
+            <img src={installer} alt="installer"/>
             <img src={award} alt="award" />
           </div>
 
