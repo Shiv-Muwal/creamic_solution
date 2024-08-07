@@ -49,3 +49,42 @@ export const Card = [
 
     },
 ]
+
+const uniqueLocations = [
+  { name: 'Knoxville' },
+  { name: 'Sevierville' },
+  { name: 'Maynardville' },
+];
+
+const repeatTimes = 7 ; 
+const locations = Array(repeatTimes).fill(uniqueLocations).flat().slice(0, -1);
+
+export { locations };
+
+export const accordionData = [
+    {
+      id: 'panel1',
+      summary: 'Lörem ipsum koda astrobel: sutaveligen.',
+      details: 'Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget maximus est, id dignissim quam.'
+    },
+    {
+      id: 'panel2',
+      summary: 'Rodod bänera viliga',
+      details: 'Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar diam eros in elit. Pellentesque convallis laoreet laoreet.'
+    },
+    {
+      id: 'panel3',
+      summary: 'Pregigt primasofi dede facebooka: förutom',
+      details: 'Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros, vitae egestas augue. Duis vel est augue.'
+    },
+    {
+      id: 'panel4',
+      summary: 'Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.',
+      details: 'Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros, vitae egestas augue. Duis vel est augue.'
+    },
+    {
+      id: 'panel5',
+      summary: 'Rodod bänera viliga. Pregigt primasofi dede facebooka',
+      details: 'Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros, vitae egestas augue. Duis vel est augue.'
+    }
+  ];
